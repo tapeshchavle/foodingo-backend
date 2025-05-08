@@ -14,10 +14,10 @@ import software.amazon.awssdk.services.s3.S3Client;
 public class AWSConfig {
 	@Value("${AWS_ACCESS_KEY}")
 	private String accessKey;
-	@Value("${AWS_SECRET_KEY }")
+	@Value("${AWS_SECRET_KEY}")
 	private String secretKey;
 	@Value("${AWS_REGION}")
-	private String region="eu-north-1";
+	private String region;
 	 
 	@Bean
 	public S3Client s3Client() {
