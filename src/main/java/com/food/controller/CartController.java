@@ -18,8 +18,7 @@ import com.food.service.CartService;
 
 @RestController
 @RequestMapping("/api/cart")
-@CrossOrigin(origins = "https://foodingo.netlify.app",
-allowCredentials = "true")
+//@CrossOrigin(origins = "https://foodingo.netlify.app",allowCredentials = "true")
 public class CartController {
 	@Autowired
 	private CartService cartService;

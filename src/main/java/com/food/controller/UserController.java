@@ -15,8 +15,7 @@ import com.food.service.UserService;
 
 @RestController
 @RequestMapping("/api/user")
-@CrossOrigin(origins = "https://foodingo.netlify.app",
-allowCredentials = "true")
+//@CrossOrigin(origins = "https://foodingo.netlify.app",allowCredentials = "true")
 public class UserController {
 	@Autowired
 	private UserService userService;

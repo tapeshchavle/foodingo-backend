@@ -19,8 +19,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @RequestMapping("/api/user")
 @AllArgsConstructor
-@CrossOrigin(origins = "https://foodingo.netlify.app",
-allowCredentials = "true")
+//@CrossOrigin(origins = "https://foodingo.netlify.app",allowCredentials = "true")
 public class AuthController{
 	private final AuthenticationManager authenticationManager;
 	private final AppUserDetailsService userDetailsService;

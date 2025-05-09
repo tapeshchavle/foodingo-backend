@@ -27,8 +27,7 @@ import com.razorpay.RazorpayException;
 
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins = "https://foodingo.netlify.app",
-allowCredentials = "true")
+//@CrossOrigin(origins = "https://foodingo.netlify.app",allowCredentials = "true")
 public class OrderController {
 	@Autowired
 	private OrderService orderService; 

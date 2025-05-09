@@ -26,8 +26,7 @@ import com.food.service.impl.FoodServiceImpl;
 
 @RestController
 @RequestMapping("/api/foods")
-@CrossOrigin(origins = "https://foodingo.netlify.app",
-allowCredentials = "true")
+//@CrossOrigin(origins = "https://foodingo.netlify.app",allowCredentials = "true")
 public class FoodController {
 	
 	@Autowired
